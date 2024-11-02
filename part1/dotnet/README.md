@@ -15,7 +15,7 @@ Each chapter also includes optional, “awesomesauce” challenges that can help
 
    Visualize and explore the syntax tree of a sample application to understand its structure.
 
-2. Parsing Source Code
+2. [Parsing Source Code](02-parse-trees.md)
 
    Learn to parse a syntax tree and inspect its structure to see how code is broken down.
 
