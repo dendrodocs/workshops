@@ -11,7 +11,7 @@ Each chapter also includes optional, “awesomesauce” challenges that can help
 
 ## Workshop Outline
 
-1. Getting Familiar with Syntax Trees
+1. [Getting Familiar with Syntax Trees](01-syntax-trees.md)
 
    Visualize and explore the syntax tree of a sample application to understand its structure.
 
