@@ -20,3 +20,8 @@ ul-style:
 
 ol-prefix:
   style: ordered
+
+no-inline-html:
+  allowed_elements:
+    - details
+    - summary
