@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoslynParseSyntaxTree", "RoslynParseSyntaxTree.csproj", "{7DED0E49-7CAB-44C6-9014-500A98DE3A5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DED0E49-7CAB-44C6-9014-500A98DE3A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DED0E49-7CAB-44C6-9014-500A98DE3A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DED0E49-7CAB-44C6-9014-500A98DE3A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DED0E49-7CAB-44C6-9014-500A98DE3A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E53160E4-5430-4907-BA69-FC4E58B8CF31}
+	EndGlobalSection
+EndGlobal
