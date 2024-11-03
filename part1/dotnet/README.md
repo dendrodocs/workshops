@@ -23,7 +23,7 @@ Each chapter also includes optional, “awesomesauce” challenges that can help
 
    Compile syntax trees and explore semantic models to gain deeper insights into the code’s meaning and relationships.
 
-4. Walking Through a Syntax Tree
+4. [Walking Through a Syntax Tree](04-walk-trees.md)
 
    Discover how to navigate specific parts of a syntax tree using the visitor pattern to target and act on relevant nodes.
 
