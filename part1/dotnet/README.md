@@ -19,7 +19,7 @@ Each chapter also includes optional, “awesomesauce” challenges that can help
 
    Learn to parse a syntax tree and inspect its structure to see how code is broken down.
 
-3. Compiling Source Code
+3. [Compiling Source Code](03-compile-code.md)
 
    Compile syntax trees and explore semantic models to gain deeper insights into the code’s meaning and relationships.
 
