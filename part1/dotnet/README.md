@@ -27,7 +27,7 @@ Each chapter also includes optional, “awesomesauce” challenges that can help
 
    Discover how to navigate specific parts of a syntax tree using the visitor pattern to target and act on relevant nodes.
 
-5. Loading Projects and Solutions
+5. [Loading Projects and Solutions](05-load-a-project.md)
 
    Learn how to load an entire project or solution, enabling you to work with more extensive codebases.
 
