@@ -2,7 +2,9 @@
 
 In this chapter, you’ll get hands-on experience with **syntax trees** by inspecting them visually using the **Syntax Visualizer** and **DGML graphs**.
 
-Understanding syntax trees is crucial for gaining deeper insights into your code structure and behavior.
+Syntax trees are the backbone of Roslyn’s capabilities;
+understanding them now will help make sense of more complex topics like semantic models and project loading later in the workshop.
+
 Syntax trees are made up of **nodes** (language constructs), **tokens** (smallest syntax elements), and **trivia** (whitespace, comments, etc.)
 that collectively represent the structure of your code.
 
@@ -71,15 +73,18 @@ Check the properties panel for additional details, including **spans**, which in
    A Directed Graph Markup Language (DGML) graph will be opened that visualizes the relationships between nodes, tokens, and trivia,
    providing a clear overview of the internal representation of your code by Roslyn.
 
-> [!TIP]
-> If Visual Studio crashes, simply reopen it and retry these steps.
-> It might help to remove the `.vs` folder in the solution directory.
+   > [!TIP]
+   > If Visual Studio crashes, simply reopen it and retry these steps.
+   > It might help to remove the `.vs` folder in the solution directory.
 
    ![A Directed Graph Markup Language (DGML) diagram depicting the tree structure of a single line of code](images/01/dgml.png)
 
-## Solution
+   > [!NOTE]
+   > Your DGML graph may look slightly different, but make sure you can identify the main components, such as nodes for `ExpressionStatement` and `Console.WriteLine()`.
 
-You can compare your project with the sample solution: [ConsoleApp1 solution](solutions/01/ConsoleApp1/).
+## Complete solution
+
+You can compare your project with the sample solution: [ConsoleApp1 solution](solutions/01/ConsoleApp1).
 
 ## Next Steps
 

@@ -1,5 +1,8 @@
 # Walk a Syntax Tree
 
+*Traversing syntax trees enables powerful analysis of code structures, allowing us to collect data or build analyzers.
+This builds on the syntax parsing from the previous chapter.*
+
 In this chapter, you will learn how to walk through a syntax tree using the visitor pattern,
 a powerful technique for traversing the nodes of a syntax tree to collect information or analyze the code structure.
 
@@ -208,7 +211,7 @@ foreach (UsingDirectiveSyntax usingDirective in collector.Usings)
 
 </details>
 
-### Expected Output
+#### Expected Output
 
 When running the code, the final output should read:
 

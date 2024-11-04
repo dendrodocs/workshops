@@ -1,5 +1,7 @@
 # Parse Source Code
 
+*Now that we have visualized syntax trees, let's take it a step further by parsing code and inspecting its structure.*
+
 In this chapter, you will learn how to parse source code into a syntax tree using Roslyn, Microsoft's compiler-as-a-service for .NET.
 You'll also learn how to query the syntax tree using both object models and LINQ queries.
 
@@ -127,7 +129,7 @@ This allows you to find and interact with specific elements in the tree.
 If you need help, use the following code:
 
 <details>
-<summary>Solution</summary>
+<summary>Reveal the solution</summary>
 
 ```csharp
 UsingDirectiveSyntax @using = root.Usings.First();
@@ -155,18 +157,10 @@ Output the following source text to the `Console`:
 1. The first `using` statement.
 2. The first `statement` in the method body.
 
-#### Optional
-
-*You can also drill down into the **InvocationExpression** and **MemberAccessExpression** to output individual parts.*
-
-#### Awesomesauce
-
-Try to output the first `argument` from the **InvocationExpression**.
-
 ### Solution
 
 <details>
-<summary>Solution</summary>
+<summary>Reveal the solution</summary>
 
 ```csharp
 Console.WriteLine(sourceText.GetSubText(@using.Span));
@@ -175,29 +169,41 @@ Console.WriteLine(sourceText.GetSubText(expressionStatement.Span));
 
 </details>
 
-### Expected Output
+#### Expected Output
 
-The final output should read:
+The output should read:
 
 ```plaintext
 using System;
 Console.WriteLine("Hello World!");
 ```
 
-The optional solution should give:
+### Optional
+
+*You can also drill down into the **InvocationExpression** and **MemberAccessExpression** to output individual parts.*
+
+#### Expected Output
+
+The output should read:
 
 ```plaintext
 Console
 WriteLine
 ```
 
-The awesomesauce solution should give:
+### Awesomesauce
+
+Try to output the first `argument` from the **InvocationExpression**.
+
+#### Expected Output
+
+The output should read:
 
 ```plaintext
 "Hello World!"
 ```
 
-## Solution
+## Complete solution
 
 You can compare your project with the [RoslynParseSyntaxTree solution](solutions/02/RoslynParseSyntaxTree).
 

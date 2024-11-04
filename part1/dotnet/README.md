@@ -2,12 +2,15 @@
 
 Welcome to the first part of the DendroDocs workshop for .NET, where you’ll get hands-on with Roslyn, officially known as the *[.NET Compiler Platform SDK](https://learn.microsoft.com/dotnet/csharp/roslyn-sdk/?wt.mc_id=AZ-MVP-5004268)*.
 
+Roslyn can help improve code quality, generate reports, and most importantly, automate documentation,
+making it invaluable for developers looking to deepen their code analysis capabilities.
+
 This part is designed to help you understand how to leverage Roslyn to analyze the structure of .NET codebases, parse syntax trees, and build custom analysis tools.
 While this part is optional for those familiar with Roslyn, it provides valuable insights into the platform that can make later sections easier to navigate.
 
 For newcomers, each chapter in this section will progressively deepen your understanding of Roslyn,
 allowing you to explore its potential for code analysis and documentation generation.
-Each chapter also includes optional, “awesomesauce” challenges that can help you test your knowledge, along with solutions for reference.
+Each chapter also includes optional, “Awesomesauce” challenges that can help you test your knowledge, along with solutions for reference.
 
 ## Workshop Outline
 
@@ -31,6 +34,10 @@ Each chapter also includes optional, “awesomesauce” challenges that can help
 
    Learn how to load an entire project or solution, enabling you to work with more extensive codebases.
 
-Each chapter builds on the previous, creating a clear pathway to mastering Roslyn for .NET code analysis.
+Each chapter builds upon the previous one, allowing you to gradually master Roslyn for .NET code analysis and documentation.
 You’ll come away with practical skills for working with syntax trees, semantic models, and generating documentation that stays aligned with your code.
 Enjoy exploring Roslyn, and let’s get started!
+
+## Complete solutions
+
+You can find the complete solutions for each chapter in the [Solutions](solutions) folder.

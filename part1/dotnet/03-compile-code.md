@@ -1,5 +1,7 @@
 # Compile Source Code
 
+*With syntax trees in place, we’ll now explore compilation and semantic models to derive meaning from code structure.*
+
 In this chapter, you will learn how to compile source code to obtain semantic information from the compiler using Roslyn.
 
 Understanding compilation and semantic analysis is crucial to building custom analyzers, refactoring tools, or more advanced code generation features.
@@ -224,12 +226,6 @@ Output the following information from the Symbol:
 2. The `type` containing the method.
 3. The `assembly` containing this type.
 
-#### Awesomesauce
-
-*A symbol holds much more information that can be used for purposes like syntax highlighting.
-Output the list of the "Display Parts" of this symbol. Display parts are the different parts that you reconize as the namespace, class, method, punctuation,
-and so on, of a line of source text. Focus on the **kind** and **name** of each part.*
-
 ### Solution
 
 If you need help, use the following code:
@@ -255,8 +251,13 @@ System.Console
 System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
 ```
 
-> [!NOTE]
-> The output might vary slightly depending on the version of the .NET SDK you are using.
+### Awesomesauce
+
+*A symbol holds much more information that can be used for purposes like syntax highlighting.
+Output the list of the "Display Parts" of this symbol. Display parts are the different parts that you reconize as the namespace, class, method, punctuation,
+and so on, of a line of source text. Focus on the **kind** and **name** of each part.*
+
+#### Expected output
 
 The Awesomesauce solution should give:
 
@@ -271,6 +272,9 @@ Keyword       = string
 Punctuation   = ?
 Punctuation   = )
 ```
+
+> [!NOTE]
+> The output might vary slightly depending on the version of the .NET SDK you are using.
 
 ## Complete solution
 
