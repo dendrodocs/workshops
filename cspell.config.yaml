@@ -1,0 +1,28 @@
+version: "0.2"
+language: en-US
+caseSensitive: false
+patterns:
+  - name: MARKDOWN-code-block
+    description: Ignore code blocks in markdown files
+    pattern: >
+      ^\s*(`{3,})(.*?)(\s*`{3,})\s*$
+  - name: MARKDOWN-inline-code-block
+    description: Ignore inline code blocks in markdown files
+    pattern: >
+      `.*?`
+languageSettings:
+  - languageId: markdown
+    locale: en-US
+    ignoreRegExpList:
+      - MARKDOWN-code-block
+      - MARKDOWN-inline-code-block
+dictionaryDefinitions:
+  - name: custom-words
+    path: .cspell/custom-words.txt
+    addWords: true
+dictionaries:
+  - custom-words
+ignorePaths:
+  - .git/**
+  - .cspell/**
+  - .vscode/**
