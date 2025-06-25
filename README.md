@@ -26,7 +26,7 @@ The workshop is organized into two main parts, each containing focused chapters 
    Get to the core of source tree analysis.
    This section will equip you with the knowledge to effectively use analyzers in your projects.
 
-2. **Part 2: Generating Documentation**
+2. **[Part 2: Generating Documentation](part2/README.md)**
 
    Learn how to utilize the JSON outputs from the analyzers to create different types of documentation.
    Whether it's text-based files like Markdown or visual representations like PlantUML diagrams, you'll master the art of keeping documentation up-to-date.
