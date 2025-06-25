@@ -26,3 +26,4 @@ ignorePaths:
   - .git/**
   - .cspell/**
   - .vscode/**
+  - "**/pitstop.analyzed.json"

@@ -1,7 +1,10 @@
 awesomesauce
 buildalyzer
 dendro
+dendrodocs
 DGML
 Hompus
 linq
 Michaël
+pitstop
+Wijk

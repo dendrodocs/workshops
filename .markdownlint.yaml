@@ -25,3 +25,5 @@ no-inline-html:
   allowed_elements:
     - details
     - summary
+
+no-blanks-blockquote: false

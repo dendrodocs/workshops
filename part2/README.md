@@ -15,3 +15,7 @@ While you don’t have to use DendroDocs in your own projects, it’s built on e
 
 DendroDocs is open source and flexible. You can adjust or replace any method to suit your needs.
 Contributions and feedback are always welcome!
+
+## Language-specific implementations
+
+* [Generating Documentation with .NET](dotnet/README.md)
