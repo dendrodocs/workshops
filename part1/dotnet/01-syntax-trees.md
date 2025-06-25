@@ -89,6 +89,6 @@ You can compare your project with the sample solution: [ConsoleApp1 solution](so
 ## Next Steps
 
 For a deeper dive into Roslyn, and to learn how to use analyzers to generate documentation and refactor code,
-continue to the next chapter or explore more about the **.NET Compiler Platform SDK** [here][ROSLYN_SDK].
+continue to the next chapter or explore more about the **[.NET Compiler Platform SDK][ROSLYN_SDK]**.
 
 [ROSLYN_SDK]: https://learn.microsoft.com/dotnet/csharp/roslyn-sdk/?wt.mc_id=AZ-MVP-5004268

@@ -254,7 +254,7 @@ System.Console, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3
 ### Awesomesauce
 
 *A symbol holds much more information that can be used for purposes like syntax highlighting.
-Output the list of the "Display Parts" of this symbol. Display parts are the different parts that you reconize as the namespace, class, method, punctuation,
+Output the list of the "Display Parts" of this symbol. Display parts are the different parts that you recognize as the namespace, class, method, punctuation,
 and so on, of a line of source text. Focus on the **kind** and **name** of each part.*
 
 #### Expected output

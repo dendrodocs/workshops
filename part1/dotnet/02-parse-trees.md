@@ -150,7 +150,7 @@ With [`SourceText.GetSubText`][SDK_GETSUBTEXT], you can extract a specific porti
 SourceText sourceText = tree.GetText();
 ```
 
-### Assigment
+### Assignment
 
 Output the following source text to the `Console`:
 
