@@ -15,3 +15,8 @@ We’ll begin by producing the intermediate JSON file that drives all other docu
 1. [Generate an Intermediate File](01-generate-intermediate-file.md)
 
    Clone the sample project and run the analyzer to produce a JSON file for the rest of this part.
+
+
+2. [Working with _TypeDescriptions_](02-work-with-types.md)
+
+   Read the intermediate JSON file, get familiar with the type descriptions, and start querying relationships between classes, methods, invocations, and more.
