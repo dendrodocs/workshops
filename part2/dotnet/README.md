@@ -26,3 +26,8 @@ We’ll begin by producing the intermediate JSON file that drives all other docu
    Use your analyzed type information to create clear and maintainable Markdown documentation.
    In this chapter, you will build a generator that starts with static content and then adds dynamic sections, such as commands, events, and their properties, all derived directly from your source code.
    The result is documentation that automatically stays in sync with your application.
+
+4. [Generating Class Diagrams](04-generating-class-diagrams.md)
+
+   Extend your documentation generator to create class diagrams using PlantUML.
+   You’ll learn how to visualize aggregates and render relationships directly from your codebase.
