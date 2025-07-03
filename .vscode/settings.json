@@ -1,5 +1,7 @@
 {
     "markdown.extension.toc.levels": "2..6",
     "markdown.extension.toc.unorderedList.marker": "*",
-    "markdown.extension.italic.indicator": "_"
+    "markdown.extension.italic.indicator": "_",
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "https://www.plantuml.com/plantuml"
 }
