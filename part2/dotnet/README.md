@@ -20,3 +20,9 @@ We’ll begin by producing the intermediate JSON file that drives all other docu
 2. [Working with _TypeDescriptions_](02-work-with-types.md)
 
    Read the intermediate JSON file, get familiar with the type descriptions, and start querying relationships between classes, methods, invocations, and more.
+
+3. [Generating Markdown Documentation](03-generate-markdown.md)
+
+   Use your analyzed type information to create clear and maintainable Markdown documentation.
+   In this chapter, you will build a generator that starts with static content and then adds dynamic sections, such as commands, events, and their properties, all derived directly from your source code.
+   The result is documentation that automatically stays in sync with your application.
