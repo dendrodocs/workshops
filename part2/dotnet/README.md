@@ -31,3 +31,18 @@ We’ll begin by producing the intermediate JSON file that drives all other docu
 
    Extend your documentation generator to create class diagrams using PlantUML.
    You’ll learn how to visualize aggregates and render relationships directly from your codebase.
+
+5. [Generating Sequence Diagrams](05-generating-sequence-diagrams.md)
+
+   Add a new dimension to your documentation by automatically generating sequence diagrams that visualize the flow of messages between services.
+   You’ll use prebuilt utilities to trace invocations and render PlantUML diagrams that help explain how commands are processed across your system.
+
+Each chapter in Part 2 builds on the last, showing you how to turn static analysis results into clear, interactive documentation for your .NET projects.  
+You now know how to process code metadata, generate readable Markdown, and visualize your system with class and sequence diagrams, all directly from your source code.
+
+By the end of this workshop, you’ve built a documentation pipeline that stays up to date with every code change, making your architecture easier to understand and share.
+
+## Complete solutions
+
+You can find the complete solutions for each chapter in the [Solutions](solutions) folder.
+
