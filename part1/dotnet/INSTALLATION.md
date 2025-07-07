@@ -6,8 +6,8 @@ Before continuing, follow the [Installation & Setup](../../INSTALLATION.md) guid
 ## Prerequisites
 
 - Install the [**.NET 8 SDK**](https://dotnet.microsoft.com/download/dotnet/8.0).
-- Chapter&nbsp;1 relies on [**Visual Studio 2022**](https://visualstudio.microsoft.com/vs/) because it includes the **Syntax Visualizer** and **DGML** tools.
-- The rest of the chapters work in [**Visual Studio 2022**](https://visualstudio.microsoft.com/vs/) or [**Visual Studio Code**](https://code.visualstudio.com/). Other IDEs might work, but specific instructions are not provided.
+- Install [**Visual Studio 2022**](https://visualstudio.microsoft.com/vs/) with the **Desktop development with C#** workload. When installing, add the **.NET Compiler Platform SDK** (which includes the Syntax Visualizer) and the **DGML editor** from the *Individual components* tab.
+- The remaining chapters work in Visual Studio 2022 or in [**Visual Studio Code**](https://code.visualstudio.com/). Other IDEs may work, but instructions are not provided.
 
 
 ## Opening the solutions
