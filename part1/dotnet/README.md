@@ -2,6 +2,8 @@
 
 Welcome to the first part of the DendroDocs workshop for .NET, where you’ll get hands-on with Roslyn, officially known as the *[.NET Compiler Platform SDK](https://learn.microsoft.com/dotnet/csharp/roslyn-sdk/?wt.mc_id=AZ-MVP-5004268)*.
 
+Before you begin, see the [Installation & Setup](INSTALLATION.md) guide to configure your environment.
+
 Roslyn can help improve code quality, generate reports, and most importantly, automate documentation,
 making it invaluable for developers looking to deepen their code analysis capabilities.
 
