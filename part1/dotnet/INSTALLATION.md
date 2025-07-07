@@ -1,7 +1,7 @@
 # Installation & Setup
 
-This workshop requires a few tools before you can start exploring the chapters. These steps will help you get ready to run the exercises and open the solutions provided for each chapter.
-Before continuing, follow the [Installation & Setup](../../INSTALLATION.md) steps at the repository root to download the workshop.
+This workshop requires a few tools before you can start exploring the chapters.
+Before continuing, follow the [Installation & Setup](../../INSTALLATION.md) guide at the repository root to download the workshop files. Then install the prerequisites below so you can run the exercises and open the provided solutions.
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ Each chapter has a ready-made solution in the `solutions` folder. Open the solut
 
 1. Navigate to `solutions/<chapter-number>`.
 2. Open the `.sln` or project folder in Visual Studio or VS Code.
-3. Follow the steps in the corresponding chapter to explore the code.
+3. Restore packages if prompted, then follow the steps in the corresponding chapter to explore the code.
 
 ## Tips
 
