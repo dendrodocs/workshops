@@ -5,6 +5,8 @@ These workshops guide you through analyzing syntax trees in various programming 
 offering hands-on experience to automate documentation in a way that stays synchronized with your codebase.
 You’ll start with DendroDocs as the default tool but can adapt it to fit the needs of any project.
 
+See [Installation & Setup](INSTALLATION.md) to download the workshop files and prepare your environment.
+
 ## Who should follow this workshop?
 
 This workshop is for developers, technical writers, DevOps engineers, and anyone curious about making documentation easy, reliable, and always up-to-date.
